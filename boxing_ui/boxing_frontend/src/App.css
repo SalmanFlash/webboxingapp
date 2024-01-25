@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-style: 'sans-serif';
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+
+  
+}
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 1000px;
+  background-color: white;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+.item-img {
+  width: 50;
+  height: 50;
+  background: transparent;
+}
+
+.item-text {
+  text-transform: uppercase;
+  font-weight:700;
+  color: #C90B0B;
+  margin-top: 10px;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: bolder;
+
+}
+.button {
+  background: #C90B0B;
+  color: #ffffff; 
+  padding: 8px 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 3px;
+  margin: 100px;
+  border:none;
+  font-family: 'Saira Condensed', sans-serif;
+}
